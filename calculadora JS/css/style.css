@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+.calculadora{
+
+    box-shadow: 10px 10px 13px 13px  rgba(0, 0, 0, 0.678);
+    margin: 100px  auto;
+    width: 400px;
+    background: rgb(230,230,230);
+    background: linear-gradient(264deg, rgba(230,230,230,1) 27%, rgba(242,242,242,1) 50%, rgba(116,116,116,1) 98%);;
+    border-radius: 15px;
+    padding: 20px 20px 20px;
+    
+}
+
+.display{
+    color: #fff;
+    text-shadow:
+    0 0 80px rgb(0, 255, 42),
+    0 0 90px rgb(0, 255, 76),
+    0 0 100px rgb(101, 211, 101),
+    0 0 150px rgb(250, 250, 250);
+    color:rgb(131, 255, 7);
+    font-family: 'Share Tech', sans-serif;
+    font-size: 2em;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.952);
+    border-radius: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    color:white;
+    background-color: rgba(48, 46, 46, 0.671);
+    margin-top: 5px;
+    box-shadow:  1px 2px 1px rgba(0, 0, 0, 0.979),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    height: 30px;
+    border-radius: 3px;
+    width: 90%;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:rgba(128, 128, 128, 0.555);
+    color: white;
+}
+
+.btn-eq{
+    background-color: rgb(43, 42, 40);
+    color:rgba(242,242,242,1);
+}
+
+.btn-eq:hover{
+    background-color: rgb(7, 7, 7);
+}
+
+.btn-clear{
+    color: black;
+    background-color: rgb(221, 182, 7);
+}
+
+.btn-clear:hover{
+    background-color: rgb(170, 100, 9);
+}
+
+.btn-del{
+    background-color: rgba(196, 7, 7, 0.76);
+}
